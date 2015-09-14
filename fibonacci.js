@@ -10,7 +10,7 @@ var fibonacci = function(n) {
 var fibonacci2 = function(n) {
 
 	var phi = (1 + Math.sqrt(5))/2;
-	return {((Math.pow(phi, n) - Math.pow(1 - phi, n))/Math.sqrt(5));}
+	return ((Math.pow(phi, n) - Math.pow(1 - phi, n))/Math.sqrt(5));
 }
 
 var firstkfib = function(k) {
